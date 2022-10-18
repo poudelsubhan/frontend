@@ -39,7 +39,7 @@ aside i.fa {
 }
 
 .music-head {
-    flex: 0 0 280px;
+    flex: 0 0 250px;
     display: flex;
     padding: 40px;
     background-color: #4e4e4e;
@@ -105,8 +105,26 @@ li:nth-child(2n) {
 }
 
 footer {
-    flex: 0 0 90px; /* don't grow or shrink - just stay at a height of 90px */
+    flex: 0 0 75px; /* don't grow or shrink - just stay at a height of 90px */
+    justify-content: space-between;
+    display: flex;
     padding: 10px;
     color: #fff;
     background-color: rgba(61, 100, 158, .9);
+}
+
+.currently-playing {
+    display: flex;
+}
+
+.playing-list {
+    padding-left: 10px
+}
+
+.music-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    width: 375px;
 }

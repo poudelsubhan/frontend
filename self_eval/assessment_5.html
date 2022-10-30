@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assess_5.css">
+    </head>
+
+    <body>
+        <h1>Personal Likes Form</h1>
+
+        <form>
+            <h3>Please enter your name below</h3>
+            <label for="firstname">
+                First Name:
+                <input type="text" id="firstname" name="firstname">
+                </label>
+                <label for="lastname">
+                Last Name:
+                <input type="text" id="lastname" name="lastname">
+                </label>
+                <button type="reset">Reset Name</button>
+            </form>
+
+            <h3>Favorite Educative Course</h3>
+            <form>
+                <label for="courses">
+                    <p>Please select your course of choice from the <code>selection menu</code> below:</p>
+                    <select id="courses">
+                        <optgroup label="Interview Category">
+                            <option>Front-end interview</option>
+                            <option>Back-end interview</option>
+                        </optgroup>
+                        <optgroup label="Web Languages">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                        </optgroup>
+                        <optgroup label="Cloud Services">
+                            <option>AWS</option>
+                            <option>Azure</option>
+                        </optgroup>
+                    </select>
+                </label>
+            </form>
+
+            <h3> Favorite icecream </h3>
+            <form>
+                <p>Select all the ice cream flavors that you like:</p>
+                <label for="chocolate">
+                    Chocolate
+                    <input type="checkbox" id="chocolate">
+                </label>
+                <label for="strawberry">
+                    Strawberry
+                    <input type="checkbox" id="strawberry">
+                </label>
+                <label for="vanilla">
+                    Vanilla
+                    <input type="checkbox" id="vanilla">
+                </label>
+            </form>
+
+            <h3>Favorite time of the day</h3>
+            <form>
+                <p>What time of the day are you most productive?</p>
+                <label for="morning">
+                    Morning
+                    <input type="radio" id="morning" name="day">
+                </label>
+                <label for="afternoon">
+                    Afternoon
+                    <input type="radio" id="afternoon" name="day">
+                </label>
+                <label for="evening">
+                    Evening
+                    <input type="radio" id="evening" name="day">
+                </label>
+            </form>
+    </body>
+</html>

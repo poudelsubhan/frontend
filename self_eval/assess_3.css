@@ -1,0 +1,15 @@
+img {
+	height: 60vh;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+h1 {
+	text-align: center; 
+    font-family: Verdana;
+}
+
+p:nth-child(5) {
+	font-size: 20px;
+}

@@ -1,6 +1,7 @@
 html,
 body {
-    height: 100%
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -118,7 +119,7 @@ footer {
 }
 
 .playing-list {
-    padding-left: 10px
+    padding-left: 10px;
 }
 
 .music-controls {

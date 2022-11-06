@@ -20,7 +20,7 @@ window.onload = function() {
         currentIndex = (currentIndex + 1) % imagesLength;
     }
 
-    // same format as above does not seem to work, get image not found error in source
+    // same format as above does not seem to work, get "image not found" error in source. Logically it should work
     const decrementIndex = function() {
         currentIndex = currentIndex - 1;
         if (currentIndex < 0) {
